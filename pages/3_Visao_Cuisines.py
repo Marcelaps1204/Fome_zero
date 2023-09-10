@@ -6,8 +6,6 @@ import streamlit as st
 from PIL import Image
 from streamlit_folium import folium_static
 import folium
-import utils as ut
-import gudhi as gd
 from folium.plugins import MarkerCluster
 
 st.set_page_config(page_title= 'Visão Cuisines', page_icon =' ', layout='wide')
